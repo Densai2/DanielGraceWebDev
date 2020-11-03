@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<link href="StyleSheet1.css" type="text/css" rel="stylesheet">
+<div class="topnav">
+    <a href="file:///C:/Users/Danny/Documents/WebDev/HTMLPage3.html">Homepage</a>
+    <a href="file:///C:/Users/Danny/Documents/WebDev/HTMLPage1.html">Defintions</a>
+    <a href="file:///C:/Users/Danny/Documents/WebDev/HTMLPage2.html">Contact</a>
+</div>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <script type="text/javascript">
+        var names = new Array(3);
+        names[0] = prompt("Please input name one:");
+        names[1] = prompt("Please input name two:");
+        names[2] = prompt("Please input name three:");
+
+        document.write("Hello ")
+    </script>
+    <h1> Contact us! </h1>
+    <p>We always want to hear feedback from our users! Fill out the form below to provide results which we can read and act upon. </p>
+    <div class="aecontainer">
+        <form style="display:inline-block">
+            <label for="firstname">First name: </label><br />
+            <input type="text" id="firstname" name="firstname" size="68" />
+            <span class="texttoside">Please input your first name.</span>
+            <br /> <br />
+            <label for"secondname">Second name: </label> <br />
+            <input type="text" id="secondname" name="secondname" size="68" />
+            <span class="texttoside">Please input your second name.</span>
+            <br /> <br />
+            <label for="message"> What could we improve?</label>
+            <span class="texttoside">What is the defintion you'd like added?.</span>
+            <br />
+            <textarea name="message" rows="10" cols="70" size="70">Type here:</textarea>
+            <br /> <br />
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
